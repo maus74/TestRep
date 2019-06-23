@@ -9,7 +9,7 @@ void f(char* s)
     {
         s[i]='T';
     }
-    return ;
+    return;
 }
 
 
@@ -19,6 +19,10 @@ int D=100;
 int main()
 {
 
+    for(int i=0;i<100;i++)
+    {
+
+    }
     char str[6]="qwer";
     char* s = malloc(sizeof(char)*6);
     f(str);
